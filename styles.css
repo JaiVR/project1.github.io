@@ -38,9 +38,9 @@ p{
         text-align: center;
     }
     .skills{
-        display: grid;
+        display: flex;
         align-items: center;
-        grid-template-rows: 1fr 1fr;
+        
     }
     .media{
         grid-row-start: 2;
