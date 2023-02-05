@@ -47,19 +47,19 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    align-items: center;
+    align: center;
 }
     .mediaskillimg{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    align: center;
 }
      
     
     .sociallinks{
     display: inline-flex;
     justify-content: space-between;
-    align-items: center;
+    align: center;
     
 }
 
