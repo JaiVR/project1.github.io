@@ -38,7 +38,7 @@ p{
         text-align: center;
     }
     .skills{
-        display: flex;
+        display: none;
         align-items: center;
     }
     .sociallinks{
