@@ -38,11 +38,12 @@ p{
         text-align: center;
     }
     .skills{
-        display: none;
+        display: grid;
         align-items: center;
+        grid-template-rows: 1fr 1fr;
     }
     .sociallinks{
-        align-items: center;
+        text-align: center;
     }
 
 
