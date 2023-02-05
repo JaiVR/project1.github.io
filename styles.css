@@ -39,12 +39,13 @@ p{
     }
     .skills{
         display: flex;
+        flex-direction:row;
         
         
     }
     
     .sociallinks{
-        text-align: center;
+        align-items: center;
     }
 
 
