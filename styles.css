@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400');
+
+body{
+    font-family: Kanit;
+    padding: 5%;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.media{
+    grid-column-start: 3;
+}
+p{
+    color:rgb(162, 171, 178);
+}
+.techskillimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.img1,.img2,.img3,.img3,.img4,.img5,.img6{
+    height: 48px;
+    width: 48px;
+}
+.mediaskillimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.sociallinks{
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 600px) {
+    h1,h2,h3,p{
+        text-align: center;
+    }
+    .skills{
+        display: flex;
+        align-items: center;
+    }
+    .sociallinks{
+        align-items: center;
+    }
+
+
+
+}
