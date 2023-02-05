@@ -39,7 +39,7 @@ p{
     }
     .skills{
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
         
         
     }
