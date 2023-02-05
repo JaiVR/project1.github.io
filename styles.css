@@ -43,17 +43,25 @@ p{
         
         
     }
-    .techskilimg{
-        align-items:center;
-    }
-    .mediaskilimg{
-        align-items:center;
-    }
+    .techskillimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+    .mediaskillimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
      
     
     .sociallinks{
-        align-items: center;
-    }
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
 
 
