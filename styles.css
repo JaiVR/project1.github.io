@@ -28,9 +28,12 @@ p{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .sociallinks{
-    display: inline-flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     
+}
+.twitter{
+    grid-column-start: 2;
 }
 
 @media screen and (max-width: 600px) {
@@ -60,11 +63,16 @@ p{
      
     
     .sociallinks{
-    display: inline-flex;
-    justify-content: space-between;
-    align: center;
-    
-}
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        
+    }
+    .insta{
+        grid-column-start: 5;
+    }
+    .twitter{
+        grid-column-start: 6;
+    }
 
 
 
