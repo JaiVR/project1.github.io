@@ -65,14 +65,17 @@ p{
     .sociallinks{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-        grid-column-gap: 0.2fr
+
+        
         
     }
     .insta{
         grid-column-start: 5;
+        align-self: center;
     }
     .twitter{
         grid-column-start: 6;
+        align-self: center;
     }
 
 
